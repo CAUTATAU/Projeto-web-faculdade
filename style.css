@@ -17,6 +17,9 @@
 }
 body {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .subtitles {
     color: #C90512;
@@ -31,4 +34,10 @@ body {
     font-weight: 500;
     font-size: 20px;
     width: 80%;
+}
+th {
+    color: #FFFFFF;
+}
+tr:nth-child(even) {
+    background-color: #CF6512;
 }
